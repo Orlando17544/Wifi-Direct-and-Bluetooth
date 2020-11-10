@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        /*----------------------------------------------Start WiFiDirectandBluetooth----------------------------------------------------*/
+        /*----------------------------------------------Start WiFiDirect----------------------------------------------------*/
 
         wifiFilter = new IntentFilter();
         //Register intent action to know when Wi-Fi p2p has changed(from enabled to disabled or vice versa)
