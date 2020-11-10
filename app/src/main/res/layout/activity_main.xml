@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wi-fi direct"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/detectPeersWifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detect peers"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number of devices right now:"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/numberDevicesNowWifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total number of devices founded until now:"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/totalNumberDevicesWifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Devices founded right now:"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/deviceAddressesNowWifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="15sp"
+        android:textStyle="normal"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/detectPeersBluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detect peers"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number of devices right now:"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/numberDevicesNowBluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total number of devices founded until now:"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/totalNumberDevicesBluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Devices founded right now:"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/deviceAddressesNowBluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="15sp"
+        android:textStyle="normal"
+        android:gravity="center_horizontal"/>
+    </LinearLayout>
+</ScrollView>
